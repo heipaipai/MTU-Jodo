@@ -1,4 +1,4 @@
-const competitors = new mongoose.Schema ({
+const users = new mongoose.Schema ({
     id: {
         type: Number,
         index: true,
@@ -14,17 +14,22 @@ const competitors = new mongoose.Schema ({
         required: false,
         trim: true
     },
-    beltGrade: {
-        type: Number,
-        required: true,
-        min: 0,
-        max: 9
-    },
-    country: {
+    email: {
         type: String,
         required: true,
-        uppercase: true,
-        minlength: 2,
-        maxlength: 2
+        email: true,
+        trim: true,
+        lowercase: true,
+        unique: true,
+        //validate: to be implemented later
+    },
+    password: {
+        type: String,
+        required: true
+    },
+    isAdmin: {
+        type: Boolean,
+        required: true,
+        default: false // = official
     }
 });
