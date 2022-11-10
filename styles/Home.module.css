@@ -27,6 +27,9 @@
   align-items: center;
   flex-grow: 1;
 }
+.footer > ul {
+  list-style: none;
+}
 
 .title a {
   color: #0070f3;
