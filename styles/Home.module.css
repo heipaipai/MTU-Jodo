@@ -27,6 +27,9 @@
   align-items: center;
   flex-grow: 1;
 }
+.footer > ul {
+  list-style: none;
+}
 
 .title a {
   color: #0070f3;
@@ -40,7 +43,7 @@
 }
 
 .title {
-  margin: 0;
+  margin: 5%;
   line-height: 1.15;
   font-size: 4rem;
 }
