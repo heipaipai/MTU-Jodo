@@ -4,6 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Navbar from './nav'
 import Footer from './footer'
 import React from 'react'
+import SSRProvider from 'react-bootstrap/SSRProvider'
 
 export default function RootLayout({
   children,
@@ -11,6 +12,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
+    <SSRProvider>
     <html>
       <head>
         <title>MTU Jōdō</title>
@@ -21,5 +23,6 @@ export default function RootLayout({
         <Footer />
         </body>
     </html>
+    </SSRProvider>
   )
 }
