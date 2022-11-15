@@ -19,3 +19,11 @@ steps:
     npm install
     npm run build
   displayName: 'npm install and build'
+
+- task: SonarCloudPrepare@1
+  inputs:
+   SonarCloud: 'SonarCloud'
+   organization: 'mtu-jodo'
+   scannerMode: 'MSBuild'
+   projectKey: 'MTU-Jodo_Jōdō'
+   projectName: 'Jōdō'
