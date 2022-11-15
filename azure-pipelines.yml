@@ -24,6 +24,6 @@ steps:
   inputs:
     SonarCloud: 'SonarCloud'
     organization: 'mtu-jodo'
-    scannerMode: 'MSBuild'
-    projectKey: 'MTU-Jodo_Jōdō'
-    projectName: 'Jōdō'
+    scannerMode: 'CLI'
+    cliprojectKey: 'MTU-Jodo_Jōdō'
+    cliprojectName: 'Jōdō'
