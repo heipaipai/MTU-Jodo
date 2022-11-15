@@ -22,8 +22,15 @@ steps:
 
 - task: SonarCloudPrepare@1
   inputs:
-    SonarCloud: 'SonarCloud'
+    SonarCloud: 'SonarcloudConnection'
     organization: 'mtu-jodo'
     scannerMode: 'CLI'
+    configMode: 'manual'
     cliprojectKey: 'MTU-Jodo_Jōdō'
     cliprojectName: 'Jōdō'
+    cliSources: '.'
+- task: SonarCloudAnalyze@1
+
+- task: SonarCloudPublish@1
+  inputs:
+    pollingTimeoutSec: '300'
