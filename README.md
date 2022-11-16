@@ -1,3 +1,5 @@
+[![Build Status](https://dev.azure.com/MTU-Jodo/J%C5%8Dd%C5%8D/_apis/build/status/SonarCloud?branchName=main)](https://dev.azure.com/MTU-Jodo/J%C5%8Dd%C5%8D/_build/latest?definitionId=2&branchName=main)
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
