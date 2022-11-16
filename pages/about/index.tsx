@@ -7,53 +7,14 @@ function About() {
     <Head>
       <title>About</title>
     </Head>
-    // hero image at top of page
     <div className="container">
       <div className="row">
         <div className="col-md-12 mt-5">
           <div className="jumbotron">
             <h1 className="display-4">About Us</h1>
-            <p className="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+            <p className="lead">A system for managing, recording and displaying the pools and knockout figures for the European Jōdō Championships 2023 in Switzerland.</p>
             <hr className="my-4" />
-            <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-          </div>
-        </div>
-      </div>
-      <div className="row">
-        <div className="col-md-6 mt-5">
-          <div className="card">
-            <div className="card-body">
-              <h5 className="card-title">Card title</h5>
-              <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" className="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-        </div>
-        <div className="col-md-6 mt-5">
-          <div className="card">
-            <div className="card-body">
-              <h5 className="card-title">Card title</h5>
-              <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" className="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-        </div>
-        <div className="col-md-6 mt-5">
-          <div className="card">
-            <div className="card-body">
-              <h5 className="card-title">Card title</h5>
-              <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" className="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-        </div>
-        <div className="col-md-6 mt-5">
-          <div className="card">
-            <div className="card-body">
-              <h5 className="card-title">Card title</h5>
-              <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" className="btn btn-primary">Go somewhere</a>
-            </div>
+            <p>The European Kendo Federation (EKF) has approached us to create a system for managing, recording and displaying the pools and knockout figures for the European Jōdō Championships 2023 in Switzerland. They would like their officials to be able to register and subsequently alter competitors information using a simple, easy-to-use and intuitive user interface which saves their details in a database. The system should show us the name and country of the competitor, their position in the pool and their position in the pool and the flags they have won and their colour in the arena. Using the information collected the system should be able to generate a knockout figure/diagram according to the rules of the Jōdō competition. The EKF have also requested that the system be able to record absences.</p>
           </div>
         </div>
       </div>

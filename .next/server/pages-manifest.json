@@ -1,13 +1,13 @@
 {
+  "/about": "pages/about.html",
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
-  "/about": "pages/about.html",
   "/api/competitors": "pages/api/competitors.js",
-  "/competition/addCompetitor": "pages/competition/addCompetitor.html",
-  "/_error": "pages/_error.js",
-  "/competition/generatePools": "pages/competition/generatePools.html",
   "/competition/viewCompetitor": "pages/competition/viewCompetitor.html",
   "/": "pages/index.html",
+  "/competition/addCompetitor": "pages/competition/addCompetitor.html",
+  "/competition/generatePools": "pages/competition/generatePools.html",
   "/login": "pages/login.html",
+  "/_error": "pages/_error.js",
   "/404": "pages/404.html"
 }
