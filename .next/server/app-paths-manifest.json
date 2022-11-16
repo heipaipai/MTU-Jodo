@@ -1,8 +1,5 @@
 {
-  "/competition/generatePools/page": "app/competition/generatePools/page.js",
-  "/about/page": "app/about/page.js",
   "/competition/addCompetitor/page": "app/competition/addCompetitor/page.js",
-  "/competition/viewCompetitor/page": "app/competition/viewCompetitor/page.js",
-  "/page": "app/page.js",
-  "/login/page": "app/login/page.js"
+  "/login/page": "app/login/page.js",
+  "/about/page": "app/about/page.js"
 }

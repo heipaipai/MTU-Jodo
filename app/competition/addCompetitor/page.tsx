@@ -1,4 +1,8 @@
+"use client";
 import React from 'react'
+import Form from 'react-bootstrap/Form'
+import Button from 'react-bootstrap/Button'
+
 
 function AddCompetitor() {
   return (
@@ -8,53 +12,35 @@ function AddCompetitor() {
         <div className="col-md-12 mt-5">
           <div className="jumbotron">
             <h1 className="display-4">Add Competitor</h1>
-            <p className="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+            <p className="lead"></p>
             <hr className="my-4" />
-            <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
           </div>
         </div>
       </div>
-      <div className="row">
-        <div className="col-md-6 mt-5">
-          <div className="card">
-            <div className="card-body">
-              <h5 className="card-title">Card title</h5>
-              <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card&apos;s content.</p>
-              <a href="#" className="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-        </div>
-        <div className="col-md-6 mt-5">
-          <div className="card">
-            <div className="card-body">
-              <h5 className="card-title">Card title</h5>
-              <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card&apos;s content.</p>
-              <a href="#" className="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-        </div>
-        <div className="col-md-6 mt-5">
-          <div className="card">
-            <div className="card-body">
-              <h5 className="card-title">Card title</h5>
-              <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card&apos;s content.</p>
-              <a href="#" className="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-        </div>
-        <div className="col-md-6 mt-5">
-          <div className="card">
-            <div className="card-body">
-              <h5 className="card-title">Card title</h5>
-              <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card&apos;s content.</p>
-              <a href="#" className="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-        </div>
+      <div className="row p-5">
+      <Form>
+      <Form.Group controlId="formBasicEmail" className="mb-3">
+        <Form.Control type="text" placeholder="Enter First Name" />
+      </Form.Group>
+      <Form.Group controlId="formBasicEmail" className="mb-3">
+        <Form.Control type="text" placeholder="Enter Last Name" />
+      </Form.Group>
+      <Form.Group controlId="formBasicEmail" className="mb-3">
+        <Form.Control type="text" placeholder="Enter Belt Grade" />
+      </Form.Group>
+      <Form.Group controlId="formBasicEmail" className="mb-3">
+        <Form.Control type="text" placeholder="Enter Country" />
+      </Form.Group>
+      <div className="d-grid gap-2">
+      <Button className="mt-5 p-2"variant="dark" type="submit">Submit</Button>
       </div>
+    </Form>
     </div>
+    </div>
+
 
   )
 }
 
 export default AddCompetitor
+
