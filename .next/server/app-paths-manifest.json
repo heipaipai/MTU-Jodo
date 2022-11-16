@@ -1,4 +1,4 @@
 {
   "/competition/addCompetitor/page": "app/competition/addCompetitor/page.js",
-  "/login/page": "app/login/page.js"
+  "/competition/viewCompetitor/page": "app/competition/viewCompetitor/page.js"
 }
