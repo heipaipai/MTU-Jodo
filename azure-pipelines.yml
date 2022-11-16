@@ -26,8 +26,7 @@ steps:
     organization: 'mtu-jodo'
     scannerMode: 'CLI'
     configMode: 'manual'
-    #cliprojectKey: 'MTU-Jodo_Jōdō' mtujodo
-    cliprojectKey: 'mtujodo'
+    cliprojectKey: 'MTU-Jodo_Jōdō'
     cliprojectName: 'Jōdō'
     cliSources: '.'
 - task: SonarCloudAnalyze@1
