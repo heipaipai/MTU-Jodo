@@ -30,7 +30,7 @@ function Login() {
                             <Form.Control type="password" placeholder="Password" />
                         </Form.Group>
 
-                        {/* TODO: Change Link to validate user once auth is complete */}
+                        {}
 
                         <div className="d-grid gap-2">
                             <Button variant="dark" type="submit">Login</Button>

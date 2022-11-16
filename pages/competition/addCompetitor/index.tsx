@@ -11,7 +11,7 @@ function AddCompetitor() {
   const [country, setCountry] = React.useState('')
 
   const onSubmit = async () => {
-    fetch('http://localhost:3000/api/competitors', {
+    fetch('https://mtujodo.herokuapp.com/api/competitors', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
