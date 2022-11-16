@@ -1,5 +1,7 @@
 import { test, expect } from '@playwright/test';
 
+const web = 'http://mtujodo.herokuapp.com/';
+
 test('homepage has title and links to intro page', async ({ page }) => {
   await page.goto('https://playwright.dev/');
 
@@ -21,7 +23,7 @@ test('homepage has title and links to intro page', async ({ page }) => {
 
 test('testMain', async ({ page }) => {
 
-  await page.goto('http://mtujodo.herokuapp.com/');
+  await page.goto(web);
 
   await page.getByRole('heading', { name: 'Welcome to MTU Jōdō' }).click();
 
@@ -29,7 +31,7 @@ test('testMain', async ({ page }) => {
 
 test('testAddCompetitor', async ({ page }) => {
 
-  await page.goto('http://mtujodo.herokuapp.com/');
+  await page.goto(web);
 
   await page.getByRole('button', { name: 'Competition' }).click();
 
@@ -40,7 +42,7 @@ test('testAddCompetitor', async ({ page }) => {
 
 test('testViewCompetitor', async ({ page }) => {
 
-  await page.goto('http://mtujodo.herokuapp.com/');
+  await page.goto(web);
 
   await page.getByRole('button', { name: 'Competition' }).click();
 
@@ -50,7 +52,7 @@ test('testViewCompetitor', async ({ page }) => {
 });
 
 test('testLogin', async ({ page }) => {
-  await page.goto('http://mtujodo.herokuapp.com/');
+  await page.goto(web);
   await page.getByRole('link', { name: 'Login' }).click();
   await expect(page).toHaveURL('http://mtujodo.herokuapp.com/login');
 });
