@@ -5,7 +5,7 @@ function ViewCompetitor() {
   const [competitors, setCompetitors] = useState<any[]>([])
   
   useEffect(() => {
-    fetch('http://localhost:3000/api/competitors')
+    fetch('https://mtujodo.herokuapp.com/api/competitors')
       .then(res => res.json())
       .then(({ data}: any) => setCompetitors(data))
       .catch(err => console.log(err))
