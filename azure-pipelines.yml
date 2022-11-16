@@ -22,7 +22,7 @@ steps:
 
 - task: SonarCloudPrepare@1
   inputs:
-    SonarCloud: 'SonarcloudConnection'
+    SonarCloud: 'SonarCloudConnection'
     organization: 'mtu-jodo'
     scannerMode: 'CLI'
     configMode: 'manual'
@@ -32,6 +32,7 @@ steps:
     cliProjectVersion: '1.0'
     cliSources: '.'
 - task: SonarCloudAnalyze@1
+
 
 - task: SonarCloudPublish@1
   inputs:
