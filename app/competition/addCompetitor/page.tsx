@@ -11,8 +11,8 @@ function AddCompetitor() {
       <div className="row">
         <div className="col-md-12 mt-5">
           <div className="jumbotron">
-            <h1 className="display-4">Add Competitor</h1>
-            <p className="lead"></p>
+            <h1 className="display-4 text-center">Add Competitor</h1>
+            <p className="lead text-center">Please fill out the form below to add a competitor.</p>
             <hr className="my-4" />
           </div>
         </div>
