@@ -7,13 +7,12 @@ function About() {
     <Head>
       <title>About</title>
     </Head>
-    // hero image at top of page
     <div className="container">
       <div className="row">
         <div className="col-md-12 mt-5">
           <div className="jumbotron">
             <h1 className="display-4">About Us</h1>
-            <p className="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+            <p className="lead">A system for managing, recording and displaying the pools and knockout figures for the European Jōdō Championships 2023 in Switzerland.</p>
             <hr className="my-4" />
             <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
           </div>
