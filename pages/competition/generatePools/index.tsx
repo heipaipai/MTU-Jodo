@@ -13,9 +13,9 @@ function GeneratePools() {
         <div className="col-md-12 mt-5">
           <div className="jumbotron">
             <h1 className="display-4">Generate Pools</h1>
-            <p className="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+            <p className="lead"></p>
             <hr className="my-4" />
-            <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+            <p></p>
           </div>
         </div>
       </div>
@@ -23,36 +23,36 @@ function GeneratePools() {
         <div className="col-md-6 mt-5">
           <div className="card">
             <div className="card-body">
-              <h5 className="card-title">Card title</h5>
-              <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card&apos;s content.</p>
-              <a href="#" className="btn btn-primary">Go somewhere</a>
+              <h5 className="card-title">Pool 1</h5>
+              <p className="card-text"></p>
+              <a href="#" className="btn btn-primary">Go to the Pool</a>
             </div>
           </div>
         </div>
         <div className="col-md-6 mt-5">
           <div className="card">
             <div className="card-body">
-              <h5 className="card-title">Card title</h5>
-              <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card&apos;s content.</p>
-              <a href="#" className="btn btn-primary">Go somewhere</a>
+              <h5 className="card-title">Pool 2</h5>
+              <p className="card-text"></p>
+              <a href="#" className="btn btn-primary">Go to the pool</a>
             </div>
           </div>
         </div>
         <div className="col-md-6 mt-5">
           <div className="card">
             <div className="card-body">
-              <h5 className="card-title">Card title</h5>
-              <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card&apos;s content.</p>
-              <a href="#" className="btn btn-primary">Go somewhere</a>
+              <h5 className="card-title">Pool 3</h5>
+              <p className="card-text"></p>
+              <a href="#" className="btn btn-primary">Go to the pool</a>
             </div>
           </div>
         </div>
         <div className="col-md-6 mt-5">
           <div className="card">
             <div className="card-body">
-              <h5 className="card-title">Card title</h5>
-              <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card&apos;s content.</p>
-              <a href="#" className="btn btn-primary">Go somewhere</a>
+              <h5 className="card-title">Pool 4</h5>
+              <p className="card-text"></p>
+              <a href="#" className="btn btn-primary">Go to the pool</a>
             </div>
           </div>
         </div>

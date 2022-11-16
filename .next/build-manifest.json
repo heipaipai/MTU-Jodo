@@ -5,8 +5,8 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/B1gmNRYjs0bVNk2lp7bel/_buildManifest.js",
-    "static/B1gmNRYjs0bVNk2lp7bel/_ssgManifest.js"
+    "static/24aUscSc9EDTlJrWe8mam/_buildManifest.js",
+    "static/24aUscSc9EDTlJrWe8mam/_ssgManifest.js"
   ],
   "rootMainFiles": [],
   "pages": {
@@ -14,7 +14,7 @@
       "static/chunks/webpack-ee7e63bc15b31913.js",
       "static/chunks/framework-3b5a00d5d7e8d93b.js",
       "static/chunks/main-a455256c0236c590.js",
-      "static/chunks/pages/index-7364715c81313f08.js"
+      "static/chunks/pages/index-9bcd6c6eb642ba38.js"
     ],
     "/_app": [
       "static/chunks/webpack-ee7e63bc15b31913.js",
@@ -33,7 +33,7 @@
       "static/chunks/webpack-ee7e63bc15b31913.js",
       "static/chunks/framework-3b5a00d5d7e8d93b.js",
       "static/chunks/main-a455256c0236c590.js",
-      "static/chunks/pages/about-9308d7d8212fd20f.js"
+      "static/chunks/pages/about-2b4b10b806731f99.js"
     ],
     "/competition/addCompetitor": [
       "static/chunks/webpack-ee7e63bc15b31913.js",
@@ -45,7 +45,7 @@
       "static/chunks/webpack-ee7e63bc15b31913.js",
       "static/chunks/framework-3b5a00d5d7e8d93b.js",
       "static/chunks/main-a455256c0236c590.js",
-      "static/chunks/pages/competition/generatePools-7d1ed78f8cb1ad5c.js"
+      "static/chunks/pages/competition/generatePools-fe7f7949d117288d.js"
     ],
     "/competition/viewCompetitor": [
       "static/chunks/webpack-ee7e63bc15b31913.js",
