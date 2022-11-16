@@ -9,13 +9,13 @@ export default async function handler(req: any, res: any) {
 
   if (method === 'GET') {
     try {
-      const competitors = await Competitors.find({}) /* find all the data in our database */
+      const competitors = await Competitors.find({}) 
       res.status(200).json({ success: true, data: competitors })
     } catch (error) {
       res.status(400).json({ success: false })
     }
   }
-  else { // POST
+  else { 
     try {
       const competitor = await Competitors.create(req.body)
       res.status(201).json({ success: true, data: competitor })
