@@ -44,11 +44,11 @@ function Login() {
                 <div className="col-md-12 mt-5">
                     <Form>
                         <Form.Group className="mb-3" controlId="formBasicEmail">
-                            <Form.Control type="text" placeholder="Email Address" value={email} onSubmit={(e: any) => setEmail(e.target.value)}/>
+                            <Form.Control type="text" placeholder="Email Address" value={email} onChange={(e: any) => setEmail(e.target.value)}/>
                         </Form.Group>
 
                         <Form.Group className="mb-3" controlId="formBasicPassword">
-                            <Form.Control type="text" placeholder="Password" value={password} onSubmit={(e: any) => setPassword(e.target.value)} />
+                            <Form.Control type="text" placeholder="Password" value={password} onChange={(e: any) => setPassword(e.target.value)} />
                         </Form.Group>
 
                         {}
