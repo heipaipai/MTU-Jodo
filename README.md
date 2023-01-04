@@ -1,3 +1,13 @@
+# MTU-Jodo
+
+A fork of a group project for Software Tools module (5 ECTS) at Munster Technological University Kerry in autumn 2022.
+Other group members can be found via the AndrewAshe-Student/MTU-Jodo project.
+
+Aimed to include as many software development tools as possible in creating and launching the simplest web app.
+Tools used: Azure DevOps, Mattermost, Git, Microsoft Azure, Node.js, MongoDB, React.js, Playwright, Microsoft Office, GitHub, StarUML, Heroku, SonarQube, Next.js, Microsoft Teams, WhatsApp, Notion, Azure Pipelines, and Zapier.
+
+
+
 [![Build Status](https://dev.azure.com/MTU-Jodo/J%C5%8Dd%C5%8D/_apis/build/status/SonarCloud?branchName=main)](https://dev.azure.com/MTU-Jodo/J%C5%8Dd%C5%8D/_build/latest?definitionId=2&branchName=main)
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
